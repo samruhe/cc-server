@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "nodemon app/index.js"
+  },
+  "dependencies": {
+    "connect-mongo": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.2",
+    "passport": "^0.7.0",
+    "passport-magic-link": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
